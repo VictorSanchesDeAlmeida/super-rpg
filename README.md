@@ -14,6 +14,14 @@ Todas as funcionalidades solicitadas foram implementadas com sucesso:
 
 Um sistema web moderno para mestres de RPG gerenciarem mapas e personagens durante campanhas. Construído com Next.js 16, TypeScript, Tailwind CSS e shadcn/ui.
 
+## 📸 Screenshots
+
+### Tela Inicial com Funcionalidades
+![Tela inicial do Super RPG](printscreen/home.png)
+
+### Mapa em Funcionamento com Grid e Tokens
+![Mapa funcionando com grid e tokens](printscreen/mapa.png)
+
 ## 🎲 Funcionalidades
 
 - **📁 Upload de Mapas**: Adicione imagens de mapas (JPG, PNG, etc.) que cobrem toda a tela
