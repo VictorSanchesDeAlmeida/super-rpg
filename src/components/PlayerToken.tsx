@@ -127,13 +127,14 @@ export function PlayerToken({
     height: gridSize,
     backgroundColor: player.color,
     zIndex: isDragging ? 1000 : 10,
-    border: "2px solid white",
+    border: "1px solid white",
     boxSizing: "border-box" as const,
     margin: 0,
     padding: 0,
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    borderRadius: "99999px",
   };
 
   return (

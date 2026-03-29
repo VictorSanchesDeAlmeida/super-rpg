@@ -25,11 +25,11 @@ export function PlayerList({ players, onPlayerRemove }: PlayerListProps) {
         {players.map((player) => (
           <div
             key={player.id}
-            className="flex items-center justify-between p-2 border rounded hover:bg-gray-50"
+            className="flex items-center justify-between p-2 rounded hover:bg-gray-50"
           >
             <div className="flex items-center gap-2">
               <div
-                className="w-6 h-6 rounded-full border flex items-center justify-center text-white text-xs font-bold"
+                className="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold"
                 style={{ backgroundColor: player.color }}
               >
                 {player.name.charAt(0).toUpperCase()}
