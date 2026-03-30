@@ -1,38 +1,87 @@
 [
   {
+    "id": "dragonborn",
+    "name": "Draconato",
+    "description": "Orgulhoso e imponente, combina poder fisico com heranca draconica.",
+    "abilityBonus": { "strength": 2, "charisma": 1 },
+    "grantedSkillIds": ["persuasion"],
+    "speed": 30,
+    "traits": ["Sopro Draconico", "Resistencia Draconica"]
+  },
+  {
+    "id": "dwarf",
+    "name": "Anao",
+    "description": "Resistente e disciplinado, excelente para linha de frente e exploracao subterranea.",
+    "abilityBonus": { "constitution": 2 },
+    "grantedSkillIds": ["history"],
+    "speed": 25,
+    "traits": [
+      "Resiliencia Ana",
+      "Visao no Escuro",
+      "Treinamento com Ferramentas"
+    ]
+  },
+  {
+    "id": "elf",
+    "name": "Elfo",
+    "description": "Agil e atento, com sentidos apurados e forte afinidade com magia e exploracao.",
+    "abilityBonus": { "dexterity": 2 },
+    "grantedSkillIds": ["perception"],
+    "speed": 30,
+    "traits": ["Visao no Escuro", "Sentidos Aguçados", "Transe"]
+  },
+  {
+    "id": "gnome",
+    "name": "Gnomo",
+    "description": "Criativo e perspicaz, usa inteligencia e curiosidade para resolver problemas.",
+    "abilityBonus": { "intelligence": 2 },
+    "grantedSkillIds": ["arcana"],
+    "speed": 25,
+    "traits": ["Esperteza Gnomica", "Visao no Escuro"]
+  },
+  {
+    "id": "half-elf",
+    "name": "Meio-Elfo",
+    "description": "Diplomatico e versatil, une adaptabilidade humana com heranca elfica.",
+    "abilityBonus": { "charisma": 2, "dexterity": 1 },
+    "grantedSkillIds": ["persuasion"],
+    "speed": 30,
+    "traits": ["Versatilidade", "Visao no Escuro", "Ancestralidade Feerica"]
+  },
+  {
+    "id": "half-orc",
+    "name": "Meio-Orc",
+    "description": "Combatente feroz, resistente e agressivo, excelente para classes marciais.",
+    "abilityBonus": { "strength": 2, "constitution": 1 },
+    "grantedSkillIds": ["athletics"],
+    "speed": 30,
+    "traits": ["Resistencia Implacavel", "Ataques Selvagens", "Ameacador"]
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "description": "Pequeno e habilidoso, com sorte excepcional e grande mobilidade.",
+    "abilityBonus": { "dexterity": 2 },
+    "grantedSkillIds": ["stealth"],
+    "speed": 25,
+    "traits": ["Sortudo", "Bravura", "Agilidade Halfling"]
+  },
+  {
     "id": "human",
     "name": "Humano",
     "description": "Versatil e adaptavel, recebe bonus em todos os atributos e se encaixa em qualquer papel.",
     "abilityBonus": { "all": 1 },
     "grantedSkillIds": ["persuasion"],
     "speed": 30,
-    "traits": ["Versátil"]
+    "traits": ["Versatil"]
   },
   {
-    "id": "elf",
-    "name": "Elfo",
-    "description": "Agil e atento, com afinidade para percepcao e boa destreza em combate e exploracao.",
-    "abilityBonus": { "dexterity": 2 },
-    "grantedSkillIds": ["perception"],
+    "id": "tiefling",
+    "name": "Tiefling",
+    "description": "Descendente infernal com presenca marcante e aptidao para magia.",
+    "abilityBonus": { "charisma": 2, "intelligence": 1 },
+    "grantedSkillIds": ["arcana"],
     "speed": 30,
-    "traits": ["Visão no Escuro", "Sentidos Aguçados", "Transe"]
-  },
-  {
-    "id": "dwarf",
-    "name": "Anão",
-    "description": "Resistente e disciplinado, excelente para linha de frente e sobrevivencia prolongada.",
-    "abilityBonus": { "constitution": 2 },
-    "grantedSkillIds": ["history"],
-    "speed": 25,
-    "traits": ["Resiliência Anã", "Treinamento em Combate Anão"]
-  },
-  {
-    "id": "halfling",
-    "name": "Halfling",
-    "description": "Pequeno e furtivo, com grande mobilidade e talento para evitar perigo.",
-    "abilityBonus": { "dexterity": 2 },
-    "grantedSkillIds": ["stealth"],
-    "speed": 25,
-    "traits": ["Sortudo", "Bravura", "Agilidade Halfling"]
+    "traits": ["Visao no Escuro", "Resistencia a Fogo", "Legado Infernal"]
   }
 ]
