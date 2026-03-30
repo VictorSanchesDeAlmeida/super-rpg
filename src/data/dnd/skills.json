@@ -1,0 +1,12 @@
+[
+  { "id": "acrobatics", "name": "Acrobacia", "description": "Equilibrio, saltos e manobras corporais em movimento.", "ability": "dexterity" },
+  { "id": "arcana", "name": "Arcanismo", "description": "Conhecimento sobre magia, tradicoes arcanas e fenomenos sobrenaturais.", "ability": "intelligence" },
+  { "id": "athletics", "name": "Atletismo", "description": "Forca fisica em escalada, nado, corrida e agarrar inimigos.", "ability": "strength" },
+  { "id": "history", "name": "História", "description": "Memoria de eventos, culturas, reinos e fatos historicos.", "ability": "intelligence" },
+  { "id": "insight", "name": "Intuição", "description": "Leitura de comportamento para perceber intencoes e mentiras.", "ability": "wisdom" },
+  { "id": "investigation", "name": "Investigação", "description": "Analise de pistas, deducao e busca detalhada de evidencias.", "ability": "intelligence" },
+  { "id": "perception", "name": "Percepção", "description": "Atencao ao ambiente para notar sons, movimentos e detalhes.", "ability": "wisdom" },
+  { "id": "persuasion", "name": "Persuasão", "description": "Capacidade de convencer, negociar e influenciar pessoas.", "ability": "charisma" },
+  { "id": "stealth", "name": "Furtividade", "description": "Mover-se sem ser notado e esconder sua presenca.", "ability": "dexterity" },
+  { "id": "survival", "name": "Sobrevivência", "description": "Rastreamento, orientacao e resistencia em ambientes hostis.", "ability": "wisdom" }
+]

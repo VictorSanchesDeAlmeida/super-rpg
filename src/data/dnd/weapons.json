@@ -1,0 +1,52 @@
+[
+  {
+    "id": "longsword",
+    "name": "Espada Longa",
+    "description": "Arma versatil para combate corpo a corpo, equilibrando dano e controle.",
+    "category": "Marcial",
+    "damage": "1d8",
+    "damageType": "Cortante",
+    "properties": ["Versátil (1d10)"],
+    "classes": ["fighter", "cleric"]
+  },
+  {
+    "id": "shortbow",
+    "name": "Arco Curto",
+    "description": "Arma de alcance leve e pratica para ataques a distancia.",
+    "category": "Simples",
+    "damage": "1d6",
+    "damageType": "Perfurante",
+    "properties": ["Munição", "Duas mãos"],
+    "classes": ["fighter", "rogue"]
+  },
+  {
+    "id": "dagger",
+    "name": "Adaga",
+    "description": "Arma leve e discreta, util em combate proximo e arremessos.",
+    "category": "Simples",
+    "damage": "1d4",
+    "damageType": "Perfurante",
+    "properties": ["Acuidade", "Leve", "Arremesso"],
+    "classes": ["fighter", "wizard", "cleric", "rogue"]
+  },
+  {
+    "id": "quarterstaff",
+    "name": "Cajado",
+    "description": "Arma simples e confiavel, comum para conjuradores e viajantes.",
+    "category": "Simples",
+    "damage": "1d6",
+    "damageType": "Concussão",
+    "properties": ["Versátil (1d8)"],
+    "classes": ["wizard", "cleric"]
+  },
+  {
+    "id": "rapier",
+    "name": "Rapieira",
+    "description": "Lamina precisa e rapida, ideal para estilos de luta com acuidade.",
+    "category": "Marcial",
+    "damage": "1d8",
+    "damageType": "Perfurante",
+    "properties": ["Acuidade"],
+    "classes": ["fighter", "rogue"]
+  }
+]

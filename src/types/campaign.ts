@@ -1,3 +1,5 @@
+import { CharacterSheet } from '@/types/dnd';
+
 export interface Position {
   x: number;
   y: number;
@@ -16,6 +18,7 @@ export interface Player {
   avatar?: string; // URL da imagem do personagem
   position: Position;
   color: string; // cor do token do player
+  characterSheet?: CharacterSheet;
 }
 
 export interface GameMap {

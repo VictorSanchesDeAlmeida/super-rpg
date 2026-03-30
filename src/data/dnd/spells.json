@@ -1,0 +1,66 @@
+[
+  {
+    "id": "fire-bolt",
+    "name": "Fire Bolt",
+    "level": 0,
+    "school": "Evocação",
+    "classes": ["wizard"],
+    "description": "Ataque mágico de fogo de alcance médio."
+  },
+  {
+    "id": "mage-hand",
+    "name": "Mage Hand",
+    "level": 0,
+    "school": "Conjuração",
+    "classes": ["wizard"],
+    "description": "Cria uma mão espectral para manipular objetos leves."
+  },
+  {
+    "id": "magic-missile",
+    "name": "Magic Missile",
+    "level": 1,
+    "school": "Evocação",
+    "classes": ["wizard"],
+    "description": "Dardos de energia que acertam automaticamente."
+  },
+  {
+    "id": "shield",
+    "name": "Shield",
+    "level": 1,
+    "school": "Abjuração",
+    "classes": ["wizard"],
+    "description": "Reação que aumenta a CA temporariamente."
+  },
+  {
+    "id": "sacred-flame",
+    "name": "Sacred Flame",
+    "level": 0,
+    "school": "Evocação",
+    "classes": ["cleric"],
+    "description": "Chama radiante que força teste de Destreza."
+  },
+  {
+    "id": "guidance",
+    "name": "Guidance",
+    "level": 0,
+    "school": "Adivinhação",
+    "classes": ["cleric"],
+    "description": "Adiciona 1d4 a um teste de habilidade."
+  },
+  {
+    "id": "cure-wounds",
+    "name": "Cure Wounds",
+    "level": 1,
+    "school": "Evocação",
+    "classes": ["cleric"],
+    "description": "Recupera pontos de vida ao toque."
+  },
+  {
+    "id": "bless",
+    "name": "Bless",
+    "level": 1,
+    "school": "Encantamento",
+    "classes": ["cleric"],
+    "description": "Aliados adicionam 1d4 em ataques e testes de resistência."
+  }
+]

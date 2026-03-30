@@ -1,0 +1,38 @@
+[
+  {
+    "id": "human",
+    "name": "Humano",
+    "description": "Versatil e adaptavel, recebe bonus em todos os atributos e se encaixa em qualquer papel.",
+    "abilityBonus": { "all": 1 },
+    "grantedSkillIds": ["persuasion"],
+    "speed": 30,
+    "traits": ["Versátil"]
+  },
+  {
+    "id": "elf",
+    "name": "Elfo",
+    "description": "Agil e atento, com afinidade para percepcao e boa destreza em combate e exploracao.",
+    "abilityBonus": { "dexterity": 2 },
+    "grantedSkillIds": ["perception"],
+    "speed": 30,
+    "traits": ["Visão no Escuro", "Sentidos Aguçados", "Transe"]
+  },
+  {
+    "id": "dwarf",
+    "name": "Anão",
+    "description": "Resistente e disciplinado, excelente para linha de frente e sobrevivencia prolongada.",
+    "abilityBonus": { "constitution": 2 },
+    "grantedSkillIds": ["history"],
+    "speed": 25,
+    "traits": ["Resiliência Anã", "Treinamento em Combate Anão"]
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "description": "Pequeno e furtivo, com grande mobilidade e talento para evitar perigo.",
+    "abilityBonus": { "dexterity": 2 },
+    "grantedSkillIds": ["stealth"],
+    "speed": 25,
+    "traits": ["Sortudo", "Bravura", "Agilidade Halfling"]
+  }
+]

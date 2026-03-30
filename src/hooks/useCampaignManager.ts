@@ -1,6 +1,7 @@
 'use client';
 import { useState, useCallback } from 'react';
 import { GameMap, Player, Position, GridConfig, Campaign } from '@/types/campaign';
+import { CreatePlayerInput } from '@/types/dnd';
 
 export function useCampaignManager() {
   const [campaign, setCampaign] = useState<Campaign>({
@@ -55,8 +56,10 @@ export function useCampaignManager() {
   }, []);
 
   // Adicionar player ao mapa ativo
-  const addPlayer = useCallback((playerName: string) => {
+  const addPlayer = useCallback((playerInput: CreatePlayerInput) => {
     if (!campaign.activeMapId) return;
+
+    const playerName = playerInput.name;
 
     // Posição inicial aleatória mas válida no grid
     const randomX = Math.floor(Math.random() * 10); // 0-9
@@ -66,7 +69,8 @@ export function useCampaignManager() {
       id: Date.now().toString(),
       name: playerName,
       position: { x: randomX, y: randomY },
-      color: `#${Math.floor(Math.random() * 16777215).toString(16)}`
+      color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
+      characterSheet: playerInput.characterSheet
     };
 
     setCampaign(prev => ({

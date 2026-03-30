@@ -7,6 +7,7 @@ import { MapCanvas } from '@/components/MapCanvas';
 import { GridControls } from '@/components/GridControls';
 import { MapSelector } from '@/components/MapSelector';
 import { PlayerList } from '@/components/PlayerList';
+import { CompendiumSheet } from '@/components/CompendiumSheet';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 
@@ -32,6 +33,8 @@ export default function Home() {
         </h1>
         
         <div className="flex items-center gap-2">
+          <CompendiumSheet />
+
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="sm" className="text-white border-gray-600 hover:bg-gray-700">
@@ -45,7 +48,7 @@ export default function Home() {
                   Configure suas campanhas, mapas e personagens.
                 </SheetDescription>
               </SheetHeader>
-              <div className="space-y-6 mt-6">
+              <div className="space-y-6 mt-6 px-4 overflow-y-auto pb-16">
                 <div>
                   <h3 className="text-sm font-medium mb-3">Adicionar Conteúdo</h3>
                   <div className="space-y-3">
@@ -94,7 +97,7 @@ export default function Home() {
                     Configure a aparência e comportamento do grid.
                   </SheetDescription>
                 </SheetHeader>
-                <div className="mt-6">
+                <div className="mt-6 px-4 overflow-y-auto pb-16">
                   <GridControls
                     gridConfig={activeMap.gridConfig}
                     onConfigChange={(config) => 

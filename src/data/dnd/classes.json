@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fighter",
+    "name": "Guerreiro",
+    "description": "Especialista em combate marcial, resistente e versatil com varias armas.",
+    "hitDie": "d10",
+    "primaryAbility": ["strength", "dexterity"],
+    "level1AbilityBonus": { "strength": 1 },
+    "grantedSkillIds": ["athletics"],
+    "allowedWeaponIds": ["longsword", "shortbow", "dagger", "rapier"],
+    "proficiencies": ["Armaduras", "Armas simples", "Armas marciais"],
+    "spellcaster": false
+  },
+  {
+    "id": "wizard",
+    "name": "Mago",
+    "description": "Conjurador arcano focado em inteligencia e controle de campo com magias.",
+    "hitDie": "d6",
+    "primaryAbility": ["intelligence"],
+    "level1AbilityBonus": { "intelligence": 1 },
+    "grantedSkillIds": ["arcana"],
+    "allowedWeaponIds": ["dagger", "quarterstaff"],
+    "proficiencies": ["Adagas", "Dardos", "Fundas", "Cajados", "Bestas leves"],
+    "spellcaster": true
+  },
+  {
+    "id": "cleric",
+    "name": "Clérigo",
+    "description": "Conjurador divino equilibrado, oferece suporte, cura e defesa para o grupo.",
+    "hitDie": "d8",
+    "primaryAbility": ["wisdom"],
+    "level1AbilityBonus": { "wisdom": 1 },
+    "grantedSkillIds": ["insight"],
+    "allowedWeaponIds": ["longsword", "dagger", "quarterstaff"],
+    "proficiencies": ["Armaduras leves", "Armaduras médias", "Escudos", "Armas simples"],
+    "spellcaster": true
+  },
+  {
+    "id": "rogue",
+    "name": "Ladino",
+    "description": "Especialista em furtividade e precisao, excelente em exploracao e dano oportunista.",
+    "hitDie": "d8",
+    "primaryAbility": ["dexterity"],
+    "level1AbilityBonus": { "dexterity": 1 },
+    "grantedSkillIds": ["stealth"],
+    "allowedWeaponIds": ["shortbow", "dagger", "rapier"],
+    "proficiencies": ["Armaduras leves", "Armas simples", "Bestas de mão", "Espadas longas", "Rapieiras"],
+    "spellcaster": false
+  }
+]
